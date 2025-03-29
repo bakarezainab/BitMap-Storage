@@ -7,7 +7,6 @@ import "../src/BitMap.sol";
 contract BitmapStorageTest is Test {
     BitmapStorage bitmapStorage;
 
-    
     function setUp() public {
         bitmapStorage = new BitmapStorage();
     }
